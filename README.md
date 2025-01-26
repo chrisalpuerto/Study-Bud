@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StudyBud 📚🌟  
+**Find the Perfect Spot to Focus and Achieve More!**  
 
-## Getting Started
+StudyBud is a web app designed to help students and individuals find quiet and suitable study areas based on criteria like Wi-Fi availability, parking, seating, and more. Built with modern technologies, StudyBud makes the search for the ideal study space seamless and efficient.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features  
+- **Search for Study Spots**: Discover nearby locations optimized for studying.  
+- **Filter by Preferences**: Search based on Wi-Fi quality, parking availability, seat capacity, and quietness.  
+- **Yelp API Integration**: Pull real-time data on locations, reviews, and ratings.  
+- **Responsive Design**: Access the app on any device with a sleek and user-friendly interface.  
+- **Account System**: Save your favorite spots for quick access.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **Frontend**  
+- **[Next.js](https://nextjs.org/)**: React framework for building fast and SEO-optimized web apps.  
+- **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework for rapid UI development.  
 
-## Learn More
+### **Backend**  
+- **[Django](https://www.djangoproject.com/)**: Powerful Python-based web framework for handling server-side logic and APIs.  
 
-To learn more about Next.js, take a look at the following resources:
+### **APIs**  
+- **[Yelp Fusion API](https://www.yelp.com/developers/documentation/v3)**: Provides location data, reviews, and business details.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### **Database**  
+- **PostgreSQL**: Relational database to store user data and favorite spots.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### **Other Tools**  
+- **Axios**: For API requests.  
+- **Framer Motion**: Smooth animations for the UI.  
+- **Docker**: Containerized development and deployment.  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Screenshots  
+_Coming soon..._  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🏗️ Installation and Setup  
+
+### 1. Clone the Repository  
+```bash  
+git clone https://github.com/your-username/studybud.git  
+cd studybud  
